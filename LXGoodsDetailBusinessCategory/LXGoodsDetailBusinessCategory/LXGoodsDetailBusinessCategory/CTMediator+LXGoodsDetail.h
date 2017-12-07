@@ -6,7 +6,7 @@
 //  Copyright © 2017年 KinRain. All rights reserved.
 //
 
-#import "CTMediator.h"
+#import <CTMediator/CTMediator.h>
 #import <UIKit/UIKit.h>
 
 @interface CTMediator (LXGoodsDetail)
