@@ -15,8 +15,8 @@
 		1691CA211FD92A3A00A22ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1691CA1F1FD92A3A00A22ED5 /* LaunchScreen.storyboard */; };
 		1691CA2C1FD92A3B00A22ED5 /* LXGoodsDetailBusinessCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1691CA2B1FD92A3B00A22ED5 /* LXGoodsDetailBusinessCategoryTests.m */; };
 		1691CA371FD92A3B00A22ED5 /* LXGoodsDetailBusinessCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1691CA361FD92A3B00A22ED5 /* LXGoodsDetailBusinessCategoryUITests.m */; };
-		1691CA481FD92AD700A22ED5 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1691CA471FD92AD700A22ED5 /* CTMediator.m */; };
 		1691CA4E1FD92B8000A22ED5 /* CTMediator+LXGoodsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 1691CA4D1FD92B8000A22ED5 /* CTMediator+LXGoodsDetail.m */; };
+		508BC229CD062469C2C0DF81 /* libPods-LXGoodsDetailBusinessCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BDABDFF666C9F40AA9F6B2 /* libPods-LXGoodsDetailBusinessCategory.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,11 @@
 		1691CA321FD92A3B00A22ED5 /* LXGoodsDetailBusinessCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXGoodsDetailBusinessCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1691CA361FD92A3B00A22ED5 /* LXGoodsDetailBusinessCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXGoodsDetailBusinessCategoryUITests.m; sourceTree = "<group>"; };
 		1691CA381FD92A3B00A22ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1691CA461FD92AD700A22ED5 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
-		1691CA471FD92AD700A22ED5 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
 		1691CA4C1FD92B8000A22ED5 /* CTMediator+LXGoodsDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+LXGoodsDetail.h"; sourceTree = "<group>"; };
 		1691CA4D1FD92B8000A22ED5 /* CTMediator+LXGoodsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+LXGoodsDetail.m"; sourceTree = "<group>"; };
+		17D0913B1EA5199FFDFD027F /* Pods-LXGoodsDetailBusinessCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXGoodsDetailBusinessCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXGoodsDetailBusinessCategory/Pods-LXGoodsDetailBusinessCategory.release.xcconfig"; sourceTree = "<group>"; };
+		552760D3FAA63B8BC5EA7D97 /* Pods-LXGoodsDetailBusinessCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXGoodsDetailBusinessCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXGoodsDetailBusinessCategory/Pods-LXGoodsDetailBusinessCategory.debug.xcconfig"; sourceTree = "<group>"; };
+		72BDABDFF666C9F40AA9F6B2 /* libPods-LXGoodsDetailBusinessCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXGoodsDetailBusinessCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508BC229CD062469C2C0DF81 /* libPods-LXGoodsDetailBusinessCategory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C84DA34F19ECB6E8079B71B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				552760D3FAA63B8BC5EA7D97 /* Pods-LXGoodsDetailBusinessCategory.debug.xcconfig */,
+				17D0913B1EA5199FFDFD027F /* Pods-LXGoodsDetailBusinessCategory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1691CA051FD92A3A00A22ED5 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +102,8 @@
 				1691CA2A1FD92A3B00A22ED5 /* LXGoodsDetailBusinessCategoryTests */,
 				1691CA351FD92A3B00A22ED5 /* LXGoodsDetailBusinessCategoryUITests */,
 				1691CA0F1FD92A3A00A22ED5 /* Products */,
+				0C84DA34F19ECB6E8079B71B /* Pods */,
+				F382F6533722B0F02EFDB264 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				1691CA4A1FD92B0600A22ED5 /* LXGoodsDetailBusinessCategory */,
-				1691CA441FD92AD700A22ED5 /* CTMediator */,
 				1691CA141FD92A3A00A22ED5 /* AppDelegate.h */,
 				1691CA151FD92A3A00A22ED5 /* AppDelegate.m */,
 				1691CA171FD92A3A00A22ED5 /* ViewController.h */,
@@ -148,23 +160,6 @@
 			path = LXGoodsDetailBusinessCategoryUITests;
 			sourceTree = "<group>";
 		};
-		1691CA441FD92AD700A22ED5 /* CTMediator */ = {
-			isa = PBXGroup;
-			children = (
-				1691CA451FD92AD700A22ED5 /* CTMediator */,
-			);
-			path = CTMediator;
-			sourceTree = "<group>";
-		};
-		1691CA451FD92AD700A22ED5 /* CTMediator */ = {
-			isa = PBXGroup;
-			children = (
-				1691CA461FD92AD700A22ED5 /* CTMediator.h */,
-				1691CA471FD92AD700A22ED5 /* CTMediator.m */,
-			);
-			path = CTMediator;
-			sourceTree = "<group>";
-		};
 		1691CA4A1FD92B0600A22ED5 /* LXGoodsDetailBusinessCategory */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +169,14 @@
 			path = LXGoodsDetailBusinessCategory;
 			sourceTree = "<group>";
 		};
+		F382F6533722B0F02EFDB264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72BDABDFF666C9F40AA9F6B2 /* libPods-LXGoodsDetailBusinessCategory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1691CA3B1FD92A3B00A22ED5 /* Build configuration list for PBXNativeTarget "LXGoodsDetailBusinessCategory" */;
 			buildPhases = (
+				E0318533BD586197D291743D /* [CP] Check Pods Manifest.lock */,
 				1691CA0A1FD92A3A00A22ED5 /* Sources */,
 				1691CA0B1FD92A3A00A22ED5 /* Frameworks */,
 				1691CA0C1FD92A3A00A22ED5 /* Resources */,
+				AE6100D06539C254019BE8BA /* [CP] Embed Pods Frameworks */,
+				2ABAE3F8D3364A08FD403824 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,6 +310,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ABAE3F8D3364A08FD403824 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXGoodsDetailBusinessCategory/Pods-LXGoodsDetailBusinessCategory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6100D06539C254019BE8BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXGoodsDetailBusinessCategory/Pods-LXGoodsDetailBusinessCategory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0318533BD586197D291743D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXGoodsDetailBusinessCategory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1691CA0A1FD92A3A00A22ED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -313,7 +370,6 @@
 				1691CA161FD92A3A00A22ED5 /* AppDelegate.m in Sources */,
 				1691CA4E1FD92B8000A22ED5 /* CTMediator+LXGoodsDetail.m in Sources */,
 				1691CA131FD92A3A00A22ED5 /* main.m in Sources */,
-				1691CA481FD92AD700A22ED5 /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,10 +516,12 @@
 		};
 		1691CA3C1FD92A3B00A22ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552760D3FAA63B8BC5EA7D97 /* Pods-LXGoodsDetailBusinessCategory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
 				INFOPLIST_FILE = LXGoodsDetailBusinessCategory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.LXGoodsDetailBusinessCategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,10 +530,12 @@
 		};
 		1691CA3D1FD92A3B00A22ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D0913B1EA5199FFDFD027F /* Pods-LXGoodsDetailBusinessCategory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
 				INFOPLIST_FILE = LXGoodsDetailBusinessCategory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.LXGoodsDetailBusinessCategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";

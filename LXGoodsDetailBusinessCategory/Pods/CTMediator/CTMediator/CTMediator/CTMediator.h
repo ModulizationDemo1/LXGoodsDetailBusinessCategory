@@ -6,8 +6,7 @@
 //  Copyright © 2016年 casa. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 
 @interface CTMediator : NSObject
 

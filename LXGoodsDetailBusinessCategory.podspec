@@ -21,4 +21,6 @@ s.source_files  = "LXGoodsDetailBusinessCategory/LXGoodsDetailBusinessCategory/L
 
 # s.dependency "JSONKit", "~> 1.4"    #依赖关系，该项目所依赖的其他库，如果有多个可以写多个 s.dependency
 
+s.dependency "CTMediator"
+
 end
